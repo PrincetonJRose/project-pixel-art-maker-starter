@@ -48,13 +48,12 @@ function makeGrid( height, width ) {
 
             // Create a new block and add it to the row
             let block = document.createElement('td')
+            row.appendChild(block)
             
             // Add an eventlistener onto the block so it will change to the current selected color when clicked
             block.onclick = (e)=> {
                 block.style.backgroundColor = color
             }
-            
-            row.appendChild(block)
         }
     }
 
