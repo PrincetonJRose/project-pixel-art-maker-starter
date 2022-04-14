@@ -1,5 +1,5 @@
 // Select color input
-let color
+let color = '#000000'
 
 // add an eventlistener to update the color when a new one is selected
 document.getElementById('colorPicker').onchange = (e)=> {
